@@ -69,13 +69,3 @@ On the provided `512x512` toy attention example, the benchmark reports:
 
 - About 35% lower graph op count after the pass.
 - 28.0% lower simulated memory traffic.
-
-Those numbers come from the benchmark's toy structural model, which is meant for before/after storytelling rather than hardware-accurate performance prediction.
-
-## Resume Bullet
-
-Use this once the repo is live:
-
-> MLIR Transformer Attention Optimizer (MLIR, Python, Linalg dialect) | github.com/prashanthreddyloka/mlir-transformer-opt
->
-> Implemented a custom MLIR tiling and loop-fusion pass targeting transformer attention patterns; reduced op count in generated IR by 35% and lowered simulated memory traffic by 28% versus the baseline Linalg lowering on a 512x512 attention benchmark.
